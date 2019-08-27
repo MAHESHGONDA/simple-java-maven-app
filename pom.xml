@@ -72,10 +72,10 @@
              <configuration>
 		     <serverId>DepRepoIT</serverId>
 <!-- 		     <registryUrl>http://192.168.1.144:8081/repository/saar-group-repo/</registryUrl> -->
-             	<repository>codeserver.saartha.net:8443/repository/saar-docker/</repository>
+<!--              	<repository>codeserver.saartha.net:8443/repository/saar-docker/</repository>
                  <tag>${project.version}</tag>
              </configuration>
-         </plugin> -->
+         </plugin> --> -->
 	   
 <!--   <plugin>
     <groupId>com.spotify</groupId>
