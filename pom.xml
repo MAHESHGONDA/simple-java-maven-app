@@ -18,7 +18,7 @@
   
   <distributionManagement>
 		<repository>
-			<id>deploymentRepo</id>
+			<id>deployment Repo IT</id>
 			<name>Saartha archiva repository</name>
 			<url>https://codeserver.saartha.net:8443/repository/saar-docker/</url>
 		</repository>
