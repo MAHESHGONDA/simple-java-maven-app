@@ -57,7 +57,7 @@
    </executions>
 </plugin> -->
 	    
-	    <plugin>
+<!-- 	    <plugin>
         <groupId>com.spotify</groupId>
              <artifactId>dockerfile-maven-plugin</artifactId>
              <version>1.4.3</version>
@@ -74,7 +74,19 @@
              <repository>http://192.168.1.144:8081/repository/saar-group-repo/</repository>
                  <tag>${project.version}</tag>
              </configuration>
-         </plugin>
+         </plugin> -->
+	    
+	    <plugin>
+  <plugin>
+    <groupId>com.spotify</groupId>
+    <artifactId>docker-maven-plugin</artifactId>
+    <version>VERSION GOES HERE</version>
+    <configuration>
+      <serverId>DepRepoIT</serverId>
+      <registryUrl>http://192.168.1.144:8081/repository/saar-group-repo/</registryUrl>
+    </configuration>
+  </plugin>
+</plugins>
 	    
     </plugins>
   </build>
