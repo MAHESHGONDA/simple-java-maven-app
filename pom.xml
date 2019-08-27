@@ -15,6 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+		<repository>
+			<id>deploymentRepo</id>
+			<name>Saartha archiva repository</name>
+			<url>https://codeserver.saartha.net:8443/repository/saar-docker/</url>
+		</repository>
+	</distributionManagement>
+  
+  
   <build>
     <plugins>
       <plugin>
